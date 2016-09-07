@@ -33,7 +33,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
-                    <h1>Copy-Paste Practice</h1>
+                    <h1>Copy-Paste Experiment</h1>
                     <hr>
                     <table class="table table-bordered">
                         <tbody>
@@ -113,14 +113,15 @@
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
                     // Last trial completed
-                    window.location = 'experiment_block1.html';
+                    ACPToolKit.downloadTrialResults(trialData, 2);
+                    window.location = 'experiment_break2.html';
                 }
             }
 
             $(document).ready(function () {
                 pid = ACPToolKit.getCurrentParticipantId();
                 console.log("PARTICIPANT ID: ", pid);
-                $.getJSON('data/experiments.json', function (data) {
+                $.getJSON('data/experiments-'.concat(pid.slice(1)).concat('.json'), function (data) {
                     trialsData = data.experiments;
                     if (trialsData) {
                       console.log("TRIALS DATA LOADED");

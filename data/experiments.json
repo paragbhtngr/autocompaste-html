@@ -1,40 +1,46 @@
 {
     "experiments": [
-        { 
-            "technique": "AUTOCOMPASTE", 
+        {
+            "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is acceptor atoms?"
         },
-        { 
-            "technique": "AUTOCOMPASTE", 
+        {
+            "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
         },
-        { 
-            "technique": "AUTOCOMPASTE", 
+        {
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "number of positive charges"
         },
-        { 
-            "technique": "TRADITIONAL", 
+        {
+            "technique": "TRADITIONAL",
             "granularity": "sentence",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is acceptor atoms?"
         },
-        { 
-            "technique": "TRADITIONAL", 
+        {
+            "technique": "TRADITIONAL",
             "granularity": "paragraph",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
         },
-        { 
-            "technique": "TRADITIONAL", 
+        {
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
+            "windows": 1,
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
-        }        
+            "stimuli": "number of positive charges"
+        }
     ]
 }

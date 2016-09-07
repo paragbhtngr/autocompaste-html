@@ -34,9 +34,9 @@ var ACPToolKit = (function () {
         arrayToCSV([headers, data], 'acp-' + pid + '-' + type);
     }
 
-    module.downloadTrialResults = function (data) {
+    module.downloadTrialResults = function (data, block) {
         var pid = ACPToolKit.getCurrentParticipantId();
-        arrayToCSV(data, 'acp-' + pid + '-trials');
+        arrayToCSV(data, 'acp-' + pid + '-trials' + '_block' + block);
     }
 
     function arrayToCSV (twoDiArray, fileName) {
@@ -85,6 +85,7 @@ var ACPToolKit = (function () {
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-stimuli').text(options.stimuli);
+            $('.js-expt-windows').text(options.windows);
 
             // Clean up DOM
             wm.destroyAllWindows();

@@ -1,0 +1,489 @@
+{
+  "experiments": [
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is AC/DC? Equipment that will operate on either an AC or DC power source."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is attenuate? To reduce the amplitude of an action or signal. The opposite of amplification."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+
+
+		{
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "atoms that accept free electrons"
+        },
+
+
+		{
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "all possible combinations of AC output"
+        },
+
+
+		{
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "dissipation of energy as it travels"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "transformer where the output"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "current where the area of the wave"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "pass a band of frequencies"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "article is usually considered"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "just as many languages express"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "obligatory nature of articles"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is AC/DC?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is active region?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is attenuate?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is autotransformer?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is band-pass filter?"
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+
+
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is AC/DC? Equipment that will operate on either an AC or DC power source."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is attenuate? To reduce the amplitude of an action or signal. The opposite of amplification."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is band-pass filter? A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+
+
+		{
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "atoms that accept free electrons"
+        },
+
+		{
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "all possible combinations of AC output"
+        },
+
+
+		{
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "dissipation of energy as it travels"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "transformer where the output"
+        },
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "current where the area of the wave"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "pass a band of frequencies"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "article is usually considered"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "just as many languages express"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "windows": 10,
+            "data_file": "data/texts-m.json",
+            "stimuli": "obligatory nature of articles"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is acceptor atoms?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is AC/DC?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 1,
+            "data_file": "data/texts-s.json",
+            "stimuli": "What is active region?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is attenuate?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is autotransformer?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 5,
+            "data_file": "data/texts-m.json",
+            "stimuli": "What is band-pass filter?"
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+
+
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "windows": 10,
+            "data_file": "data/texts-l.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        }
+
+
+  ]
+}
